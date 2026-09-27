@@ -71,37 +71,24 @@ python number_guessing_game.py
 
 ## 📤Example output
 ```text
-=============================================
-      Welcome to the Number Guessing Game!
-=============================================
-I have chosen a secret number between 1 and 100.
-Try to guess it within the allowed attempts.
+-----------------------
+ number guessing game
+----------------------
+I have a number chossen between 1 to 100
+you have 7 chances to guess it, good luck
 
-You have 7 attempts. Good luck!
+ chances left: 7
+guess the number:50
+your guess is too high
+your guesses: [50]
 
-Attempts left: 7
-Enter your guess (1-100): 50
-Too low! Try guessing higher.
+ chances left: 6
+guess the number:25
 
-Your guesses so far: 50
-------------------------------
-
-Attempts left: 6
-Enter your guess (1-100): 75
-Too high! Try guessing lower.
-
-Your guesses so far: 50 75
-------------------------------
-
-Attempts left: 5
-Enter your guess (1-100): 63
-
-*** Congratulations! You found the secret number (63)! ***
-It took you 3 attempt(s).
-
-Would you like to play again? (yes/no): no
-
-Thanks for playing! Have a great day!
+ well done
+you guessed the number correctly
+number of guesses: 2
+play again??(yes/no)
 ```
 
 ## 📦 Dependencies
