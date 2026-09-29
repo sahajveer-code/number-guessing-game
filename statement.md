@@ -2,35 +2,35 @@
 
 ## 1. Problem Statement
 
-Beginners learning Python often struggle to connect isolated concepts such as variables, loops, conditionals, functions, lists and exception handling into a single working program. Reading about these ideas is not the same as applying them together, and many practice exercises are either too trivial or too large for a first-year learner.
+Novices who start to learn Python sometimes have difficulties putting together the separate elements like variables, loops, conditionals, functions, lists, and error handling to create an application that works properly. Studying these elements is quite different from combining them in one solution, and many exercises are either too simple or too complex for the beginning of a first year.
 
-This project addresses that gap by building a small, interactive command-line game, the **Number Guessing Game**. The computer picks a secret number between 1 and 100, and the player must find it within a limited number of attempts. The game must respond to every kind of player input, including valid guesses, out-of-range numbers, repeated guesses and non-numeric text, without crashing.
+To overcome these difficulties, I am going to create a simple interactive game on the command line called the **Number Guessing Game**. It will generate a random number from 1 to 100, and the player should guess what it is using a certain amount of tries. This application should work with any user input without breaking down.
 
 ## 2. Scope of the Project
 
 ### In Scope
-- A command-line game written in Python 3 using only the standard library (`random`).
-- A randomly generated secret number between 1 and 100 for every round.
-- A maximum of 7 attempts per round.
-- Feedback after each guess: too high, too low, or correct.
-- Input validation for:
-  - non-numeric input,
-  - numbers outside the range 1 to 100,
-  - duplicate guesses within the same round.
-- Tracking and display of previous guesses and remaining chances.
-- A replay option so the player can start a new round without restarting the program.
+- A command-line game implemented in Python 3 language with the usage of only built-in modules (`random` module).
+- A randomly chosen secret number within the 1-100 range in every round.
+- A limit of 7 attempts per round.
+- Providing feedback after every guess about whether the guess is higher, lower or equal to the secret number.
+- Checking user's input for:
+  - non-numeric values,
+  - guessing outside of the 1-100 range,
+  - repeated guess in one round.
+- Keeping track of previously guessed numbers and chances left.
+- An ability to play another round without restarting the program.
 
 ### Out of Scope
-- Graphical user interface or web/mobile version.
-- Multiplayer mode, user accounts or online leaderboards.
-- Persistent storage of scores or game history.
-- Adjustable difficulty levels or custom number ranges.
+- Graphical user interface or web/mobile variant.
+- Multiplayer option, user account creation, or online leaderboard support.
+- Saving score history or game history.
+- Difficulty settings or range customization options.
 
 ## 3. Target Users
 
-- **Beginner Python learners** who want a practical example of core programming concepts working together.
-- **Students and instructors** who need a simple, readable reference project for teaching control flow, functions, lists and input handling.
-- **Casual players** who want a quick, lightweight game that runs in any terminal.
+- **Novice Python students** seeking an illustrative case study in how fundamental programming principles work in tandem.
+- **Teachers and learners** who require a basic, easy-to-read project to demonstrate control structures, functions, lists, and user input.
+- **Gaming enthusiasts** desiring a quick, lightweight game to be played on any command-line interface.
 
 ## 4. High-Level Features
 
